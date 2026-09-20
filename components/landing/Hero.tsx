@@ -15,9 +15,12 @@ export function Hero() {
               <span className="h-2 w-2 rounded-full bg-green-400" />
               Live on campus
             </div>
-            <h1 className="font-heading text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-              <span className="gradient-text">ZaiKuu</span>
-            </h1>
+            <div className="flex items-center gap-4 mb-6">
+              <img src="/logo.png" alt="ZaiKuu" className="h-16 w-16 rounded-2xl shadow-lg" />
+              <h1 className="font-heading text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
+                ZaiKuu
+              </h1>
+            </div>
             <p className="mt-6 text-xl text-white/90 sm:text-2xl max-w-lg">
               Connecting students with local vendors for fresh, affordable
               meals — delivered to your campus.
