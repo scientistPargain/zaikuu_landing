@@ -27,7 +27,7 @@ export function Hero() {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="https://play.google.com/store/apps/details?id=com.zaikuu.app"
+                href="https://play.google.com/store/apps/details?id=com.deepanshu_pargain.zaikuu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 rounded-2xl bg-white px-8 py-4 text-base font-bold text-primary transition-all hover:scale-105 glow"
