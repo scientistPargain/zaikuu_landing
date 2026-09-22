@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
@@ -9,8 +9,22 @@ export default function DeleteDataConfirmPage() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [deletionDate, setDeletionDate] = useState<string>("");
+  const [userEmail, setUserEmail] = useState<string | null>(null);
+  const [emailLoaded, setEmailLoaded] = useState(false);
+  const [confirmText, setConfirmText] = useState("");
   const router = useRouter();
   const supabase = createClient();
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      setUserEmail(user?.email ?? null);
+      setEmailLoaded(true);
+    });
+  }, []);
+
+  const emailMatches =
+    !!userEmail &&
+    confirmText.trim().toLowerCase() === userEmail.toLowerCase();
 
   async function handleConfirmDeletion() {
     setLoading(true);
@@ -46,6 +60,14 @@ export default function DeleteDataConfirmPage() {
     );
   }
 
+  if (!emailLoaded) {
+    return (
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:px-8">
+        <p className="text-sm text-gray-500">Loading confirmation…</p>
+      </div>
+    );
+  }
+
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold text-gray-900">Confirm Data Deletion</h1>
@@ -58,8 +80,28 @@ export default function DeleteDataConfirmPage() {
             request by contacting support within 30 days.
           </p>
         </div>
+        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
+          <p className="text-sm font-medium text-gray-800">
+            Type your email address to confirm
+          </p>
+          <p className="mt-1 text-sm">
+            <code className="rounded bg-gray-100 px-1.5 py-0.5 font-mono text-gray-900">
+              {userEmail ?? "unknown"}
+            </code>
+          </p>
+          <input
+            type="email"
+            value={confirmText}
+            onChange={(e) => setConfirmText(e.target.value)}
+            placeholder="you@example.com"
+            className="mt-2 block w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm focus:border-blue-500 focus:outline-none"
+          />
+          {confirmText.trim() !== "" && !emailMatches && (
+            <p className="mt-1 text-sm text-red-600">Email doesn&apos;t match</p>
+          )}
+        </div>
         {error && <p className="text-sm text-red-600">{error}</p>}
-        <button onClick={handleConfirmDeletion} disabled={loading}
+        <button onClick={handleConfirmDeletion} disabled={loading || !emailMatches}
           className="w-full rounded-lg bg-red-600 px-6 py-3 text-sm font-semibold text-white hover:bg-red-700 disabled:opacity-50">
           {loading ? "Processing..." : "Confirm Data Deletion"}
         </button>

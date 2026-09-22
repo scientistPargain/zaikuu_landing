@@ -36,6 +36,11 @@ export function Footer() {
                   Terms &amp; Conditions
                 </a>
               </li>
+              <li>
+                <a href="/feedback" className="text-sm text-white/60 transition-colors hover:text-primary">
+                  Feedback
+                </a>
+              </li>
             </ul>
           </div>
           <div>
