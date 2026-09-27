@@ -5,34 +5,34 @@ export const metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-bold text-gray-900">Privacy Policy</h1>
-      <p className="mt-2 text-sm text-gray-500">Last updated: September 22, 2026</p>
+      <h1 className="text-3xl font-bold text-foreground">Privacy Policy</h1>
+      <p className="mt-2 text-sm text-muted-foreground">Last updated: September 22, 2026</p>
       <div className="prose prose-gray mt-8 space-y-8">
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">1. Identity and Contact Information</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">1. Identity and Contact Information</h2>
+          <p className="mt-2 text-muted-foreground">
             ZaiKuu (&quot;ZaiKuu,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) operates the ZaiKuu campus
             marketplace application (the &quot;App&quot;). For the purposes of applicable data protection laws,
             ZaiKuu is the data controller responsible for your personal data.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             If you have questions about this Privacy Policy or wish to exercise your rights, please
             contact us at:
           </p>
-          <ul className="mt-2 list-disc space-y-1 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-muted-foreground">
             <li><strong>Email:</strong> support@zaikuu.com</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">2. Information We Collect</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">2. Information We Collect</h2>
+          <p className="mt-2 text-muted-foreground">
             We collect information to provide and improve the App. The categories of personal
             information we collect depend on your role and how you interact with the App.
           </p>
 
-          <h3 className="mt-4 text-lg font-semibold text-gray-900">2.1 Information You Provide Directly</h3>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <h3 className="mt-4 text-lg font-semibold text-foreground">2.1 Information You Provide Directly</h3>
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Student (Buyer) Accounts:</strong> When you create an account, we collect your
               name, email address, phone number, student ID, and delivery addresses. If you register
@@ -63,8 +63,8 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="mt-4 text-lg font-semibold text-gray-900">2.2 Information Collected Automatically</h3>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <h3 className="mt-4 text-lg font-semibold text-foreground">2.2 Information Collected Automatically</h3>
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Device Information:</strong> We collect your device type, operating system
               version, unique device identifiers, Google Advertising ID (GAID), Android ID, screen
@@ -90,8 +90,8 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="mt-4 text-lg font-semibold text-gray-900">2.3 Information from Third Parties</h3>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <h3 className="mt-4 text-lg font-semibold text-foreground">2.3 Information from Third Parties</h3>
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Google OAuth:</strong> If you sign in using Google, we receive your name and
               email address from your Google account, as authorized by you. See Section 8 for more
@@ -101,11 +101,11 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">3. How We Use Your Information</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">3. How We Use Your Information</h2>
+          <p className="mt-2 text-muted-foreground">
             We use the information we collect for the following purposes:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Providing and Operating the App:</strong> To create and manage your account,
               process orders, facilitate payments, enable delivery, and provide customer support.
@@ -143,11 +143,11 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">4. Data Sharing and Third Parties</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">4. Data Sharing and Third Parties</h2>
+          <p className="mt-2 text-muted-foreground">
             We share your personal information with the following categories of recipients:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Vendors:</strong> We share your name, delivery address, order details, and any
               chat messages with the relevant vendor to fulfill your order. Vendors are independent
@@ -167,7 +167,7 @@ export default function PrivacyPolicyPage() {
             <li>
               <strong>Google:</strong> We use Google Firebase Cloud Messaging (FCM) to deliver push
               notifications and Google OAuth for authentication. Google processes data in accordance
-              with the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google Privacy Policy</a>.
+              with the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Google Privacy Policy</a>.
             </li>
             <li>
               <strong>Analytics Providers:</strong> We may share usage data with analytics providers
@@ -186,20 +186,20 @@ export default function PrivacyPolicyPage() {
               others.
             </li>
           </ul>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             We do not sell your personal information. We do not share your personal information with
             third parties for their direct marketing purposes without your explicit consent.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">5. Data Retention</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">5. Data Retention</h2>
+          <p className="mt-2 text-muted-foreground">
             We retain your personal information for as long as necessary to fulfill the purposes
             described in this Privacy Policy, unless a longer retention period is required or
             permitted by law.
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Account Information:</strong> Retained for as long as your account is active.
               When you request account deletion, your account enters a 30-day grace period. During
@@ -234,13 +234,13 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">6. Data Security</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">6. Data Security</h2>
+          <p className="mt-2 text-muted-foreground">
             We implement appropriate technical and organizational measures to protect your personal
             information against unauthorized access, alteration, disclosure, or destruction. These
             measures include:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Encryption in Transit:</strong> All data transmitted between your device and
               our servers is encrypted using Transport Layer Security (TLS/HTTPS).
@@ -264,7 +264,7 @@ export default function PrivacyPolicyPage() {
               compliant payment processor. We do not store full payment card numbers on our servers.
             </li>
           </ul>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             While we strive to protect your personal information, no method of transmission over
             the Internet or electronic storage is 100% secure. We cannot guarantee absolute
             security.
@@ -272,15 +272,15 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">7. Your Rights</h2>
+          <h2 className="text-xl font-semibold text-foreground">7. Your Rights</h2>
 
-          <h3 className="mt-4 text-lg font-semibold text-gray-900">7.1 California Residents (CCPA/CPRA)</h3>
-          <p className="mt-2 text-gray-600">
+          <h3 className="mt-4 text-lg font-semibold text-foreground">7.1 California Residents (CCPA/CPRA)</h3>
+          <p className="mt-2 text-muted-foreground">
             If you are a California resident, the California Consumer Privacy Act of 2018
             (CCPA), as amended by the California Privacy Rights Act of 2020 (CPRA), grants you
             the following rights:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Right to Know:</strong> You have the right to request that we disclose the
               categories and specific pieces of personal information we have collected about you, the
@@ -311,7 +311,7 @@ export default function PrivacyPolicyPage() {
               exercising any of your CCPA/CPRA rights.
             </li>
           </ul>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             To exercise your CCPA/CPRA rights, please contact us at{' '}
             <strong>support@zaikuu.com</strong>. We will verify your identity before processing your
             request and respond within forty-five (45) days.
@@ -319,25 +319,25 @@ export default function PrivacyPolicyPage() {
           <div className="mt-4 space-y-2">
             <a
               href="#do-not-sell"
-              className="block text-blue-600 hover:underline font-medium"
+              className="block text-accent hover:underline font-medium"
             >
               Do Not Sell or Share My Personal Information
             </a>
             <a
               href="#limit-sensitive"
-              className="block text-blue-600 hover:underline font-medium"
+              className="block text-accent hover:underline font-medium"
             >
               Limit the Use of My Sensitive Personal Information
             </a>
           </div>
 
-          <h3 className="mt-4 text-lg font-semibold text-gray-900">7.2 European Economic Area / United Kingdom / Switzerland Residents (GDPR)</h3>
-          <p className="mt-2 text-gray-600">
+          <h3 className="mt-4 text-lg font-semibold text-foreground">7.2 European Economic Area / United Kingdom / Switzerland Residents (GDPR)</h3>
+          <p className="mt-2 text-muted-foreground">
             If you are located in the European Economic Area (EEA), the United Kingdom (UK), or
             Switzerland, you have the following rights under the General Data Protection Regulation
             (GDPR) and equivalent local laws:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Right of Access:</strong> You have the right to request a copy of the personal
               information we hold about you.
@@ -368,14 +368,14 @@ export default function PrivacyPolicyPage() {
               personal information, you have the right to withdraw consent at any time.
             </li>
           </ul>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             To exercise your GDPR rights, contact us at <strong>support@zaikuu.com</strong>. We will
             respond within thirty (30) days. You also have the right to lodge a complaint with your
             local data protection authority.
           </p>
 
-          <h3 className="mt-4 text-lg font-semibold text-gray-900">7.3 How to Exercise Your Rights</h3>
-          <p className="mt-2 text-gray-600">
+          <h3 className="mt-4 text-lg font-semibold text-foreground">7.3 How to Exercise Your Rights</h3>
+          <p className="mt-2 text-muted-foreground">
             To exercise any of the rights described above, please email us at{' '}
             <strong>support@zaikuu.com</strong> with a description of your request. We will verify
             your identity to protect your privacy and security. We may ask you to provide information
@@ -386,24 +386,24 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">8. Google OAuth</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">8. Google OAuth</h2>
+          <p className="mt-2 text-muted-foreground">
             When you choose to sign in with Google, we use Google OAuth to authenticate your
             identity. Through this process, Google provides us with your Google account name and
             email address. We use this information solely to create and manage your ZaiKuu account.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             We do not access, collect, or store any other information from your Google account,
             including your Google contacts, calendar, drive files, or any other data associated with
             your Google account.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             For more information about how Google handles your data, please refer to the{' '}
             <a
               href="https://policies.google.com/privacy"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-accent hover:underline"
             >
               Google Privacy Policy
             </a>
@@ -412,19 +412,19 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">9. Push Notifications</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">9. Push Notifications</h2>
+          <p className="mt-2 text-muted-foreground">
             We use Firebase Cloud Messaging (FCM) to send push notifications to your device. Push
             notifications may include:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>Order status updates (confirmation, preparation, delivery)</li>
             <li>Delivery confirmations</li>
             <li>Chat messages from vendors</li>
             <li>Promotional offers and announcements (if you have opted in)</li>
             <li>Account security alerts</li>
           </ul>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             To deliver push notifications, we collect an FCM token associated with your device. You
             may opt out of push notifications at any time by disabling notifications in your device
             settings or within the App. Please note that opting out of push notifications may affect
@@ -433,27 +433,27 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">10. Children&apos;s Privacy (COPPA)</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">10. Children&apos;s Privacy (COPPA)</h2>
+          <p className="mt-2 text-muted-foreground">
             The ZaiKuu App is not directed to children under the age of 13. We do not knowingly
             collect personal information from children under 13. If we become aware that we have
             inadvertently collected personal information from a child under the age of 13, we will
             take steps to delete such information promptly.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             By using the App, you represent that you are at least 13 years of age. If you are under
             18, you must have the consent of a parent or legal guardian to use the App.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">11. Cookies and Tracking Technologies</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">11. Cookies and Tracking Technologies</h2>
+          <p className="mt-2 text-muted-foreground">
             We use cookies and similar tracking technologies to collect information about your
             browsing activity on our web-based landing pages and to improve the App. Cookies are
             small data files stored on your device.
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Essential Cookies:</strong> Required for the App to function properly, such as
               maintaining your session and authentication state.
@@ -463,30 +463,30 @@ export default function PrivacyPolicyPage() {
               understand how users interact with the App and improve our services.
             </li>
           </ul>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             We honor the Global Privacy Control (GPC) signal. If your browser sends a GPC signal,
             we will treat it as a valid opt-out of the sale or sharing of personal information, as
             required by applicable law.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             You can control cookies through your browser settings. Disabling certain cookies may
             affect the functionality of the App.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">12. Changes to This Privacy Policy</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">12. Changes to This Privacy Policy</h2>
+          <p className="mt-2 text-muted-foreground">
             We may update this Privacy Policy from time to time to reflect changes in our practices,
             technology, legal requirements, or other factors. When we make material changes, we will
             notify you by:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>Posting the updated Privacy Policy on this page with a revised &quot;Last updated&quot; date</li>
             <li>Sending an in-app notification for material changes</li>
             <li>Sending an email to the address associated with your account for significant changes</li>
           </ul>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             We encourage you to review this Privacy Policy periodically. Your continued use of the
             App after any changes to this Privacy Policy constitutes your acceptance of the updated
             terms.
@@ -494,13 +494,13 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">13. Contact Us</h2>
-          <p className="mt-2 text-gray-600">
+          <h2 className="text-xl font-semibold text-foreground">13. Contact Us</h2>
+          <p className="mt-2 text-muted-foreground">
             If you have any questions, concerns, or requests regarding this Privacy Policy or our
             data practices, please contact us at:
           </p>
-          <p className="mt-2 text-gray-600"><strong>Email:</strong> support@zaikuu.com</p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground"><strong>Email:</strong> support@zaikuu.com</p>
+          <p className="mt-2 text-muted-foreground">
             We will respond to your inquiry within thirty (30) days.
           </p>
         </section>

@@ -13,12 +13,12 @@ export default async function DeleteDataPage() {
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-bold text-gray-900">Delete Data</h1>
-      <p className="mt-2 text-sm text-gray-500">Please read carefully before proceeding.</p>
+      <h1 className="text-3xl font-bold text-foreground">Delete Data</h1>
+      <p className="mt-2 text-sm text-muted-foreground">Please read carefully before proceeding.</p>
       <div className="mt-8 space-y-6">
-        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
-          <h2 className="text-lg font-semibold text-amber-800">What happens when you request data deletion</h2>
-          <ul className="mt-2 list-disc space-y-1 pl-5 text-amber-700">
+        <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4">
+          <h2 className="text-lg font-semibold text-amber-300">What happens when you request data deletion</h2>
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-amber-200">
             <li>Your personal data will be permanently removed after 30 days</li>
             <li>Your account will remain active but anonymized</li>
             <li>Order history will be stripped of personal identifiers</li>
@@ -27,9 +27,9 @@ export default async function DeleteDataPage() {
             <li>This action can be cancelled within 30 days by contacting support</li>
           </ul>
         </div>
-        <p className="text-gray-600">
+        <p className="text-muted-foreground">
           If you want to delete your entire account, use the{" "}
-          <Link href="/delete-account" className="text-[#FF6B35] underline">Delete Account</Link> option instead.
+          <Link href="/delete-account" className="text-primary underline">Delete Account</Link> option instead.
         </p>
         <Link href="/delete-data/confirm"
           className="inline-block rounded-lg bg-red-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-red-700">

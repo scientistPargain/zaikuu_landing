@@ -45,9 +45,9 @@ export default function DeleteDataConfirmPage() {
   if (success) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="rounded-lg border border-green-200 bg-green-50 p-6 text-center">
-          <h2 className="mt-4 text-xl font-semibold text-green-800">Data Deletion Request Submitted</h2>
-          <p className="mt-2 text-green-700">
+        <div className="rounded-lg border border-green-500/30 bg-green-500/10 p-6 text-center">
+          <h2 className="mt-4 text-xl font-semibold text-green-300">Data Deletion Request Submitted</h2>
+          <p className="mt-2 text-green-200">
             Your personal data will be permanently removed on{" "}
             {deletionDate}.
             Your account will remain active but anonymized.
@@ -63,29 +63,29 @@ export default function DeleteDataConfirmPage() {
   if (!emailLoaded) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:px-8">
-        <p className="text-sm text-gray-500">Loading confirmation…</p>
+        <p className="text-sm text-muted-foreground">Loading confirmation…</p>
       </div>
     );
   }
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-bold text-gray-900">Confirm Data Deletion</h1>
+      <h1 className="text-3xl font-bold text-foreground">Confirm Data Deletion</h1>
       <div className="mt-8 space-y-6">
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4">
-          <h2 className="text-lg font-semibold text-red-800">Warning: This action cannot be undone</h2>
-          <p className="mt-2 text-red-700">
+        <div className="rounded-lg border border-red-500/30 bg-red-500/10 p-4">
+          <h2 className="text-lg font-semibold text-red-300">Warning: This action cannot be undone</h2>
+          <p className="mt-2 text-red-200">
             Your personal data will be permanently removed after 30 days. Your
             account will remain active but anonymized. You can cancel this
             request by contacting support within 30 days.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
-          <p className="text-sm font-medium text-gray-800">
+        <div className="rounded-lg border border-border bg-muted p-4">
+          <p className="text-sm font-medium text-foreground">
             Type your email address to confirm
           </p>
           <p className="mt-1 text-sm">
-            <code className="rounded bg-gray-100 px-1.5 py-0.5 font-mono text-gray-900">
+            <code className="rounded bg-background px-1.5 py-0.5 font-mono text-foreground">
               {userEmail ?? "unknown"}
             </code>
           </p>
@@ -94,7 +94,7 @@ export default function DeleteDataConfirmPage() {
             value={confirmText}
             onChange={(e) => setConfirmText(e.target.value)}
             placeholder="you@example.com"
-            className="mt-2 block w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm focus:border-blue-500 focus:outline-none"
+            className="mt-2 block w-full rounded-lg border border-border bg-card px-3 py-2 text-sm focus:border-primary focus:outline-none"
           />
           {confirmText.trim() !== "" && !emailMatches && (
             <p className="mt-1 text-sm text-red-600">Email doesn&apos;t match</p>

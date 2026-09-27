@@ -14,12 +14,12 @@ export function AdminHeader({ email }: { email: string }) {
   }
 
   return (
-    <header className="flex h-16 items-center justify-between border-b border-gray-200 bg-white px-6">
+    <header className="flex h-16 items-center justify-between border-b border-border bg-card px-6">
       <div />
       <div className="flex items-center gap-4">
-        <span className="text-sm text-gray-600">{email}</span>
+        <span className="text-sm text-muted-foreground">{email}</span>
         <button onClick={handleSignOut}
-          className="rounded-lg border border-gray-300 px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-50">
+          className="rounded-lg border border-border px-3 py-1.5 text-sm font-medium text-foreground hover:bg-muted">
           Sign out
         </button>
       </div>

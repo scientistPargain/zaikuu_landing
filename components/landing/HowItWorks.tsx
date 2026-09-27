@@ -29,14 +29,14 @@ export function HowItWorks() {
           </p>
         </div>
 
-        <div className="relative mt-16">
+        <div className="relative mt-14 sm:mt-16">
           {/* Connector line - desktop */}
-          <div className="hidden sm:block absolute top-10 left-[20%] right-[20%] h-0.5 bg-gradient-to-r from-primary via-secondary to-accent" />
+          <div className="hidden sm:block absolute top-10 left-[20%] right-[20%] h-0.5 bg-gradient-to-r from-primary via-secondary to-accent shadow-[0_0_10px_rgba(234,88,12,0.5)]" />
 
-          <div className="grid gap-12 sm:grid-cols-3">
+          <div className="grid gap-10 sm:grid-cols-3 sm:gap-8">
             {steps.map((step, i) => (
               <div key={step.number} className={`relative reveal reveal-delay-${i + 1} text-center`}>
-                <div className="relative mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-primary to-secondary text-2xl font-bold text-white shadow-lg shadow-primary/30">
+                <div className="relative mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-primary to-secondary text-2xl font-bold text-white shadow-lg shadow-primary/40 ring-4 ring-primary/15">
                   {step.number}
                 </div>
                 <h3 className="mt-6 text-xl font-bold text-foreground">

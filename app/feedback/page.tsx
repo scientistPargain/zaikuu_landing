@@ -57,11 +57,11 @@ export default function FeedbackPage() {
   if (success) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-green-200 bg-green-50 p-6 text-center">
-          <h2 className="text-xl font-semibold text-green-800">
+        <div className="rounded-2xl border border-green-500/30 bg-green-500/10 p-6 text-center">
+          <h2 className="text-xl font-semibold text-green-300">
             Feedback submitted
           </h2>
-          <p className="mt-2 text-green-700">
+          <p className="mt-2 text-green-200">
             Thanks for taking the time to help us improve.
           </p>
           <div className="mt-6 flex justify-center gap-3">
@@ -73,7 +73,7 @@ export default function FeedbackPage() {
             </Link>
             <button
               onClick={() => setSuccess(false)}
-              className="rounded-lg border border-green-300 bg-white px-6 py-2 text-sm font-semibold text-green-700 hover:bg-green-100"
+              className="rounded-lg border border-green-500/40 bg-green-500/10 px-6 py-2 text-sm font-semibold text-green-300 hover:bg-green-500/20"
             >
               Submit another
             </button>
@@ -107,7 +107,7 @@ export default function FeedbackPage() {
             id="category"
             value={category}
             onChange={(e) => setCategory(e.target.value as Category)}
-            className="mt-1 block w-full rounded-lg border border-border bg-white px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none"
+            className="mt-1 block w-full rounded-lg border border-border bg-card px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none"
           >
             {CATEGORIES.map((c) => (
               <option key={c.value} value={c.value}>
@@ -132,7 +132,7 @@ export default function FeedbackPage() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Describe your feedback…"
-            className="mt-1 block w-full rounded-lg border border-border bg-white px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none"
+            className="mt-1 block w-full rounded-lg border border-border bg-card px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none"
           />
           <p className="mt-1 text-right text-xs text-muted-foreground">
             {message.length} / 5000
