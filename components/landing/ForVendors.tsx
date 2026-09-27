@@ -1,3 +1,5 @@
+import { PhoneFrame } from "./PhoneFrame";
+
 const benefits = [
   "Reach hundreds of students on campus",
   "Manage orders with an easy dashboard",
@@ -56,17 +58,14 @@ export function ForVendors() {
             </div>
           </div>
           <div className="relative flex justify-center reveal reveal-delay-2">
-            <div className="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-accent/10 blur-3xl" />
-            <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-primary/10 blur-3xl" />
-            <div className="relative flex h-80 w-full items-center justify-center rounded-3xl bg-gradient-to-br from-primary/5 to-accent/5 border border-border shadow-xl sm:h-96">
-              <div className="text-center">
-                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-secondary text-white">
-                  <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5" />
-                  </svg>
-                </div>
-                <p className="mt-4 text-sm font-medium text-muted-foreground">Dashboard Preview</p>
-              </div>
+            <div className="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-accent/15 blur-3xl" />
+            <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-primary/15 blur-3xl" />
+            <div className="relative w-[300px] sm:w-[360px]">
+              <PhoneFrame
+                src="/images/phone_ss_5.png"
+                alt="ZaiKuu vendor dashboard screen"
+                sizes="(min-width: 640px) 360px, 300px"
+              />
             </div>
           </div>
         </div>

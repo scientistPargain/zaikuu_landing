@@ -5,12 +5,12 @@
   --color-primary-dark: #C2410C;
   --color-secondary: #F97316;
   --color-accent: #2563EB;
-  --color-background: #FFF7ED;
-  --color-foreground: #0F172A;
-  --color-card: #FFFFFF;
-  --color-muted: #FDF4F0;
-  --color-muted-foreground: #475569;
-  --color-border: #FCEAE1;
+  --color-background: #0F0D0B;
+  --color-foreground: #F5F1EE;
+  --color-card: #1A1614;
+  --color-muted: #171310;
+  --color-muted-foreground: #A8A29E;
+  --color-border: #2B2521;
   --color-destructive: #DC2626;
   --font-heading: "Playfair Display SC", serif;
   --font-body: "Karla", sans-serif;
@@ -18,12 +18,18 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-body);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
 }
 
 .reveal {
@@ -42,14 +48,14 @@ body {
 .reveal-delay-4 { transition-delay: 0.4s; }
 
 .gradient-text {
-  background: linear-gradient(135deg, #EA580C, #F97316, #2563EB);
+  background: linear-gradient(135deg, #FDBA74, #F97316, #60A5FA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .glow {
-  box-shadow: 0 0 20px rgba(234, 88, 12, 0.3), 0 0 60px rgba(234, 88, 12, 0.1);
+  box-shadow: 0 0 24px rgba(234, 88, 12, 0.35), 0 0 64px rgba(234, 88, 12, 0.15);
 }
 
 .glass {
@@ -66,11 +72,6 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-@keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(234, 88, 12, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(234, 88, 12, 0.6); }
-}
-
 .gradient-border {
   position: relative;
 }
@@ -80,7 +81,7 @@ body {
   inset: 0;
   border-radius: inherit;
   padding: 2px;
-  background: linear-gradient(135deg, #EA580C, #2563EB);
+  background: linear-gradient(135deg, #F97316, #3B82F6);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -88,6 +89,9 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
   .reveal {
     opacity: 1;
     transform: none;

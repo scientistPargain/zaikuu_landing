@@ -5,14 +5,14 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-bold text-gray-900">Terms and Conditions</h1>
-      <p className="mt-2 text-sm text-gray-500">Last updated: September 22, 2026</p>
+      <h1 className="text-3xl font-bold text-foreground">Terms and Conditions</h1>
+      <p className="mt-2 text-sm text-muted-foreground">Last updated: September 22, 2026</p>
       <div className="prose prose-gray mt-8 space-y-8">
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             1. Agreement to Terms
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             By creating an account, accessing, or using the ZaiKuu application
             and related services (collectively, the &quot;Platform&quot; or
             &quot;Service&quot;), you acknowledge that you have read,
@@ -21,7 +21,7 @@ export default function TermsPage() {
             regulations. If you do not agree to these Terms, you must not access
             or use the Platform.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             You must be at least thirteen (13) years of age to create an account
             and use the Platform. By creating an account, you represent and
             warrant that you meet this age requirement and have the legal
@@ -33,10 +33,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             2. Definitions
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>&quot;Platform&quot;</strong> refers to the ZaiKuu mobile
               application, website, and all related services, features, and
@@ -72,10 +72,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             3. Account Registration &amp; Security
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Accurate Information:</strong> You must provide truthful,
               accurate, and complete information during the registration process
@@ -98,7 +98,7 @@ export default function TermsPage() {
             </li>
             <li>
               <strong>Notification of Unauthorized Use:</strong> You must
-              immediately notify ZaiKuu at support@zaikuu.com if you become
+              immediately notify ZaiKuu at scientist.deepanshu@gmail.com if you become
               aware of any unauthorized use of your account or any other breach
               of security.
             </li>
@@ -114,16 +114,16 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             4. Platform Role &mdash; Marketplace Disclaimer
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             <strong>ZaiKuu is a marketplace platform only.</strong> ZaiKuu is
             not a food provider, restaurant, catering service, delivery service,
             or logistics company. ZaiKuu does not prepare, cook, handle, store,
             package, or deliver any food items.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             The Platform facilitates transactions between Students and Vendors by
             providing a technology interface for browsing menus, placing orders,
             processing payments, and enabling communication. All food
@@ -131,7 +131,7 @@ export default function TermsPage() {
             exclusively by Vendors and, where applicable, their designated
             delivery personnel.
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               Vendors are <strong>independent businesses or individuals</strong>,
               not employees, agents, partners, or joint venturers of ZaiKuu.
@@ -162,14 +162,14 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             5. Vendor-Specific Terms
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             If you register as a Vendor on the Platform, the following
             additional terms apply to you:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Menu Accuracy:</strong> You are responsible for ensuring
               that all menu items, descriptions, prices, images, and
@@ -220,10 +220,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             6. Student/User-Specific Terms
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Order Accuracy:</strong> You are responsible for reviewing
               your order details, including menu items, quantities, special
@@ -256,10 +256,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             7. Orders &amp; Payment
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Payment Methods:</strong> The Platform accepts payments
               through third-party payment processors. You agree to comply with
@@ -289,7 +289,7 @@ export default function TermsPage() {
             </li>
             <li>
               <strong>Disputed Charges:</strong> If you believe you have been
-              charged in error, you must contact support@zaikuu.com within
+              charged in error, you must contact scientist.deepanshu@gmail.com within
               thirty (30) calendar days of the charge. ZaiKuu will investigate
               the dispute and respond within a reasonable timeframe.
             </li>
@@ -304,10 +304,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             8. Cancellation &amp; Refund Policy
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Student Cancellations:</strong> You may cancel an order at
               any time before the Vendor has accepted it. Once a Vendor has
@@ -330,7 +330,7 @@ export default function TermsPage() {
             </li>
             <li>
               <strong>Dispute Resolution:</strong> If you are dissatisfied with
-              a refund decision, you may contact support@zaikuu.com to request
+              a refund decision, you may contact scientist.deepanshu@gmail.com to request
               a review. ZaiKuu will investigate and respond within a reasonable
               timeframe. If the dispute cannot be resolved, either party may
               pursue resolution in accordance with Section 16 of these Terms.
@@ -339,10 +339,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             9. In-App Chat
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Acceptable Use:</strong> The in-app chat feature is
               provided solely for communication related to orders and Platform
@@ -373,10 +373,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             10. User-Generated Content
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>License to ZaiKuu:</strong> By submitting, posting, or
               displaying any content on the Platform (including reviews, ratings,
@@ -409,10 +409,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             11. Intellectual Property
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>App Ownership:</strong> The Platform, including its
               software, design, logos, trademarks, and all related intellectual
@@ -444,14 +444,14 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             12. Prohibited Conduct
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             You must not engage in any of the following prohibited activities
             while using the Platform:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Fraud:</strong> Engaging in fraudulent transactions, using
               stolen payment information, or impersonating another person or
@@ -499,15 +499,15 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             13. Disclaimers &amp; Limitation of Liability
           </h2>
-          <p className="mt-2 text-gray-600 font-semibold">
+          <p className="mt-2 text-muted-foreground font-semibold">
             THE PLATFORM IS PROVIDED ON AN &quot;AS IS&quot; AND &quot;AS
             AVAILABLE&quot; BASIS WITHOUT WARRANTIES OF ANY KIND, WHETHER
             EXPRESS, IMPLIED, OR STATUTORY.
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               ZaiKuu expressly disclaims all warranties, including but not
               limited to implied warranties of merchantability, fitness for a
@@ -529,7 +529,7 @@ export default function TermsPage() {
               the performance of any Vendor or delivery personnel.
             </li>
           </ul>
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-muted-foreground">
             <strong>Limitation of Liability:</strong> To the maximum extent
             permitted by applicable law, in no event shall ZaiKuu, its
             directors, officers, employees, agents, or affiliates be liable for
@@ -537,7 +537,7 @@ export default function TermsPage() {
             damages, including but not limited to loss of profits, data, use,
             goodwill, or other intangible losses, resulting from:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               Your access to, use of, or inability to use the Platform;
             </li>
@@ -555,13 +555,13 @@ export default function TermsPage() {
               Any errors, mistakes, or inaccuracies of content.
             </li>
           </ul>
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-muted-foreground">
             In no event shall ZaiKuu&apos;s aggregate liability exceed the
             greater of (a) the total fees paid by you to ZaiKuu in the twelve
             (12) months immediately preceding the event giving rise to the
             claim, or (b) one hundred Indian Rupees (₹100).
           </p>
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-muted-foreground">
             <strong>Force Majeure:</strong> ZaiKuu shall not be liable for any
             failure or delay in performance resulting from causes beyond its
             reasonable control, including but not limited to natural disasters,
@@ -572,17 +572,17 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             14. Indemnification
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             You agree to indemnify, defend, and hold harmless ZaiKuu, its
             directors, officers, employees, agents, and affiliates from and
             against any and all claims, liabilities, damages, losses, costs,
             and expenses (including reasonable attorneys&apos; fees) arising out
             of or in any way connected with:
           </p>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               Your access to or use of the Platform;
             </li>
@@ -600,7 +600,7 @@ export default function TermsPage() {
               Any content you submit, post, or display on the Platform.
             </li>
           </ul>
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-muted-foreground">
             <strong>Vendor Indemnification:</strong> If you are a Vendor, you
             additionally agree to indemnify and hold harmless ZaiKuu from any
             claims arising out of or related to food safety, foodborne illness,
@@ -612,14 +612,14 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             15. Term &amp; Termination
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Termination by You:</strong> You may terminate your account
               at any time by following the account deletion process within the
-              Platform or by contacting support@zaikuu.com. Upon requesting
+              Platform or by contacting scientist.deepanshu@gmail.com. Upon requesting
               account deletion, your account will enter a thirty (30) day grace
               period during which your account is deactivated but data is
               retained. If you do not reactivate within this period, your
@@ -652,10 +652,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             16. Dispute Resolution
           </h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-gray-600">
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-muted-foreground">
             <li>
               <strong>Governing Law:</strong> These Terms shall be governed by
               and construed in accordance with the laws of India, without
@@ -687,24 +687,24 @@ export default function TermsPage() {
             <li>
               <strong>Informal Resolution:</strong> Before initiating formal
               dispute resolution, you agree to first contact ZaiKuu at
-              support@zaikuu.com and attempt to resolve the dispute informally
+              scientist.deepanshu@gmail.com and attempt to resolve the dispute informally
               for a period of at least thirty (30) calendar days.
             </li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             17. Modifications to Terms
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             ZaiKuu reserves the right to modify, amend, or update these Terms
             at any time at its sole discretion. We will notify you of material
             changes by posting the updated Terms on the Platform with a revised
             &quot;Last updated&quot; date and, where appropriate, by sending
             you a notification through the Platform or via email.
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             Your continued access to or use of the Platform after the
             effective date of any modifications constitutes your acceptance of
             the modified Terms. If you do not agree to the modified Terms, you
@@ -714,10 +714,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             18. Severability
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             If any provision of these Terms is found by a court of competent
             jurisdiction or arbitrator to be invalid, illegal, or unenforceable
             for any reason, such provision shall be modified to the minimum
@@ -728,10 +728,10 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             19. Entire Agreement
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             These Terms, together with the Privacy Policy and any additional
             terms, guidelines, or policies referenced herein or published on the
             Platform, constitute the entire agreement between you and ZaiKuu
@@ -742,17 +742,17 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-foreground">
             20. Contact Information
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             If you have any questions, concerns, or feedback regarding these
             Terms and Conditions, please contact us at:
           </p>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-muted-foreground">
             <strong>Email:</strong>{" "}
-            <a href="mailto:support@zaikuu.com" className="text-blue-600 hover:underline">
-              support@zaikuu.com
+            <a href="mailto:scientist.deepanshu@gmail.com" className="text-accent hover:underline">
+              scientist.deepanshu@gmail.com
             </a>
           </p>
         </section>

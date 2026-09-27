@@ -55,19 +55,19 @@ export function Features() {
             Order food, track deliveries, and connect with campus vendors.
           </p>
         </div>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        <div className="mt-10 grid gap-5 sm:mt-12 sm:grid-cols-2 sm:gap-6">
           {features.map((feature, i) => (
             <div
               key={feature.title}
-              className={`reveal reveal-delay-${i + 1} group rounded-2xl border border-border bg-card p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 gradient-border`}
+              className={`reveal reveal-delay-${i + 1} group rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/20 gradient-border sm:p-8`}
             >
-              <div className={`flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${feature.gradient} text-white shadow-lg`}>
+              <div className={`flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${feature.gradient} text-white`}>
                 {feature.icon}
               </div>
               <h3 className="mt-5 text-xl font-bold text-foreground">
                 {feature.title}
               </h3>
-              <p className="mt-2 text-muted-foreground">
+              <p className="mt-2 text-[0.975rem] leading-relaxed text-muted-foreground">
                 {feature.description}
               </p>
             </div>

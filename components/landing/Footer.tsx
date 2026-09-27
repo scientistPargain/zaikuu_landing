@@ -2,7 +2,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-foreground text-white">
+    <footer className="bg-[#0B0908] text-white">
       <div className="h-1 bg-gradient-to-r from-primary via-secondary to-accent" />
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -36,6 +36,11 @@ export function Footer() {
                   Terms &amp; Conditions
                 </a>
               </li>
+              <li>
+                <a href="/feedback" className="text-sm text-white/60 transition-colors hover:text-primary">
+                  Feedback
+                </a>
+              </li>
             </ul>
           </div>
           <div>
@@ -62,15 +67,15 @@ export function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 rounded-l-lg bg-white/10 px-4 py-2.5 text-sm text-white placeholder:text-white/40 border border-white/10 focus:outline-none focus:border-primary"
+                className="min-w-0 flex-1 rounded-l-lg border border-border bg-card px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary"
               />
-              <button className="rounded-r-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary-dark">
+              <button className="rounded-r-lg bg-primary-dark px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary">
                 Subscribe
               </button>
             </div>
           </div>
         </div>
-        <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/40">
+        <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/55">
           <p>&copy; {currentYear} ZaiKuu. All rights reserved.</p>
         </div>
       </div>

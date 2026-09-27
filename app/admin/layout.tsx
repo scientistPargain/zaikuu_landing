@@ -12,7 +12,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
       <AdminSidebar />
       <div className="flex flex-1 flex-col overflow-hidden">
         <AdminHeader email={user.email ?? ""} />
-        <main className="flex-1 overflow-y-auto bg-gray-50 p-6">{children}</main>
+        <main className="flex-1 overflow-y-auto bg-muted p-6">{children}</main>
       </div>
     </div>
   );

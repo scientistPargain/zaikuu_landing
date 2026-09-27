@@ -50,8 +50,8 @@ export function LoginForm() {
   return (
     <div className="mx-auto w-full max-w-md space-y-6">
       <div className="text-center">
-        <h1 className="text-2xl font-bold text-gray-900">Sign in to ZaiKuu</h1>
-        <p className="mt-2 text-sm text-gray-600">
+        <h1 className="text-2xl font-bold text-foreground">Sign in to ZaiKuu</h1>
+        <p className="mt-2 text-sm text-muted-foreground">
           Sign in to manage your account and data.
         </p>
       </div>
@@ -60,7 +60,7 @@ export function LoginForm() {
         <div>
           <label
             htmlFor="email"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-foreground"
           >
             Email
           </label>
@@ -70,7 +70,7 @@ export function LoginForm() {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm shadow-sm focus:border-[#FF6B35] focus:outline-none focus:ring-1 focus:ring-[#FF6B35]"
+            className="mt-1 block w-full rounded-lg border border-border bg-card px-3 py-2 text-sm shadow-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             placeholder="you@example.com"
           />
         </div>
@@ -78,7 +78,7 @@ export function LoginForm() {
         <div>
           <label
             htmlFor="password"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-foreground"
           >
             Password
           </label>
@@ -88,7 +88,7 @@ export function LoginForm() {
             required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm shadow-sm focus:border-[#FF6B35] focus:outline-none focus:ring-1 focus:ring-[#FF6B35]"
+            className="mt-1 block w-full rounded-lg border border-border bg-card px-3 py-2 text-sm shadow-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             placeholder="Your password"
           />
         </div>
@@ -100,7 +100,7 @@ export function LoginForm() {
         <button
           type="submit"
           disabled={loading}
-          className="w-full rounded-lg bg-[#FF6B35] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#E65100] disabled:opacity-50"
+          className="w-full rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark disabled:opacity-50"
         >
           {loading ? "Signing in..." : "Sign in"}
         </button>
@@ -108,16 +108,16 @@ export function LoginForm() {
 
       <div className="relative">
         <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-gray-300" />
+          <div className="w-full border-t border-border" />
         </div>
         <div className="relative flex justify-center text-sm">
-          <span className="bg-[#FBF5F0] px-2 text-gray-500">or</span>
+          <span className="bg-background px-2 text-muted-foreground">or</span>
         </div>
       </div>
 
       <button
         onClick={handleGoogleLogin}
-        className="w-full rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-700 transition-colors hover:bg-gray-50"
+        className="w-full rounded-lg border border-border bg-card px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:bg-muted"
       >
         Continue with Google
       </button>
