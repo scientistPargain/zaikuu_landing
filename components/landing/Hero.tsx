@@ -50,25 +50,25 @@ export function Hero() {
               </div>
             </div>
             <div className="mt-14 flex justify-center lg:hidden reveal reveal-delay-2">
-              <div className="w-full max-w-[260px] sm:max-w-[300px]">
+              <div className="w-full max-w-[320px] sm:max-w-[360px]">
                 <PhoneFrame
                   src="/images/phone_ss_1.png"
                   alt="ZaiKuu app home screen"
-                  sizes="(min-width: 640px) 300px, 260px"
+                  sizes="(min-width: 640px) 360px, 320px"
                 />
               </div>
             </div>
           </div>
           <div className="hidden lg:flex lg:justify-center reveal reveal-delay-2">
-            <div className="relative w-[26rem] pt-4">
-              <div className="absolute left-0 top-16 w-40 -rotate-6">
-                <PhoneFrame src="/images/phone_ss_2.png" alt="Explore vendors screen" sizes="160px" />
+            <div className="relative w-[32rem] pt-4">
+              <div className="absolute left-0 top-16 w-52 -rotate-6">
+                <PhoneFrame src="/images/phone_ss_2.png" alt="Explore vendors screen" sizes="208px" />
               </div>
-              <div className="absolute right-0 top-24 w-40 rotate-6">
-                <PhoneFrame src="/images/phone_ss_3.png" alt="Student profile screen" sizes="160px" />
+              <div className="absolute right-0 top-24 w-52 rotate-6">
+                <PhoneFrame src="/images/phone_ss_3.png" alt="Student profile screen" sizes="208px" />
               </div>
-              <div className="relative z-10 mx-auto w-64">
-                <PhoneFrame src="/images/phone_ss_1.png" alt="ZaiKuu app home screen" sizes="256px" />
+              <div className="relative z-10 mx-auto w-80">
+                <PhoneFrame src="/images/phone_ss_1.png" alt="ZaiKuu app home screen" sizes="320px" />
                 <div className="absolute -bottom-5 -right-5 h-20 w-20 rounded-2xl bg-accent/30 backdrop-blur-sm animate-float" />
                 <div className="absolute -top-4 -left-4 h-14 w-14 rounded-full bg-secondary/40 backdrop-blur-sm animate-float" style={{ animationDelay: "1.5s" }} />
               </div>

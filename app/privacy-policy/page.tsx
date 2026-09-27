@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
             contact us at:
           </p>
           <ul className="mt-2 list-disc space-y-1 pl-5 text-muted-foreground">
-            <li><strong>Email:</strong> support@zaikuu.com</li>
+            <li><strong>Email:</strong> scientist.deepanshu@gmail.com</li>
           </ul>
         </section>
 
@@ -313,7 +313,7 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p className="mt-2 text-muted-foreground">
             To exercise your CCPA/CPRA rights, please contact us at{' '}
-            <strong>support@zaikuu.com</strong>. We will verify your identity before processing your
+            <strong>scientist.deepanshu@gmail.com</strong>. We will verify your identity before processing your
             request and respond within forty-five (45) days.
           </p>
           <div className="mt-4 space-y-2">
@@ -369,7 +369,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
           <p className="mt-2 text-muted-foreground">
-            To exercise your GDPR rights, contact us at <strong>support@zaikuu.com</strong>. We will
+            To exercise your GDPR rights, contact us at <strong>scientist.deepanshu@gmail.com</strong>. We will
             respond within thirty (30) days. You also have the right to lodge a complaint with your
             local data protection authority.
           </p>
@@ -377,7 +377,7 @@ export default function PrivacyPolicyPage() {
           <h3 className="mt-4 text-lg font-semibold text-foreground">7.3 How to Exercise Your Rights</h3>
           <p className="mt-2 text-muted-foreground">
             To exercise any of the rights described above, please email us at{' '}
-            <strong>support@zaikuu.com</strong> with a description of your request. We will verify
+            <strong>scientist.deepanshu@gmail.com</strong> with a description of your request. We will verify
             your identity to protect your privacy and security. We may ask you to provide information
             to confirm your identity before processing your request. We will respond to your request
             within thirty (30) days. If we need additional time, we will inform you of the extension
@@ -499,7 +499,7 @@ export default function PrivacyPolicyPage() {
             If you have any questions, concerns, or requests regarding this Privacy Policy or our
             data practices, please contact us at:
           </p>
-          <p className="mt-2 text-muted-foreground"><strong>Email:</strong> support@zaikuu.com</p>
+          <p className="mt-2 text-muted-foreground"><strong>Email:</strong> scientist.deepanshu@gmail.com</p>
           <p className="mt-2 text-muted-foreground">
             We will respond to your inquiry within thirty (30) days.
           </p>

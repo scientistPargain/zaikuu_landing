@@ -60,11 +60,11 @@ export function ForVendors() {
           <div className="relative flex justify-center reveal reveal-delay-2">
             <div className="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-accent/15 blur-3xl" />
             <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-primary/15 blur-3xl" />
-            <div className="relative w-[240px] sm:w-[260px]">
+            <div className="relative w-[300px] sm:w-[360px]">
               <PhoneFrame
                 src="/images/phone_ss_5.png"
                 alt="ZaiKuu vendor dashboard screen"
-                sizes="(min-width: 640px) 260px, 240px"
+                sizes="(min-width: 640px) 360px, 300px"
               />
             </div>
           </div>

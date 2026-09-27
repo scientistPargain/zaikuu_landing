@@ -98,7 +98,7 @@ export default function TermsPage() {
             </li>
             <li>
               <strong>Notification of Unauthorized Use:</strong> You must
-              immediately notify ZaiKuu at support@zaikuu.com if you become
+              immediately notify ZaiKuu at scientist.deepanshu@gmail.com if you become
               aware of any unauthorized use of your account or any other breach
               of security.
             </li>
@@ -289,7 +289,7 @@ export default function TermsPage() {
             </li>
             <li>
               <strong>Disputed Charges:</strong> If you believe you have been
-              charged in error, you must contact support@zaikuu.com within
+              charged in error, you must contact scientist.deepanshu@gmail.com within
               thirty (30) calendar days of the charge. ZaiKuu will investigate
               the dispute and respond within a reasonable timeframe.
             </li>
@@ -330,7 +330,7 @@ export default function TermsPage() {
             </li>
             <li>
               <strong>Dispute Resolution:</strong> If you are dissatisfied with
-              a refund decision, you may contact support@zaikuu.com to request
+              a refund decision, you may contact scientist.deepanshu@gmail.com to request
               a review. ZaiKuu will investigate and respond within a reasonable
               timeframe. If the dispute cannot be resolved, either party may
               pursue resolution in accordance with Section 16 of these Terms.
@@ -619,7 +619,7 @@ export default function TermsPage() {
             <li>
               <strong>Termination by You:</strong> You may terminate your account
               at any time by following the account deletion process within the
-              Platform or by contacting support@zaikuu.com. Upon requesting
+              Platform or by contacting scientist.deepanshu@gmail.com. Upon requesting
               account deletion, your account will enter a thirty (30) day grace
               period during which your account is deactivated but data is
               retained. If you do not reactivate within this period, your
@@ -687,7 +687,7 @@ export default function TermsPage() {
             <li>
               <strong>Informal Resolution:</strong> Before initiating formal
               dispute resolution, you agree to first contact ZaiKuu at
-              support@zaikuu.com and attempt to resolve the dispute informally
+              scientist.deepanshu@gmail.com and attempt to resolve the dispute informally
               for a period of at least thirty (30) calendar days.
             </li>
           </ul>
@@ -751,8 +751,8 @@ export default function TermsPage() {
           </p>
           <p className="mt-2 text-muted-foreground">
             <strong>Email:</strong>{" "}
-            <a href="mailto:support@zaikuu.com" className="text-accent hover:underline">
-              support@zaikuu.com
+            <a href="mailto:scientist.deepanshu@gmail.com" className="text-accent hover:underline">
+              scientist.deepanshu@gmail.com
             </a>
           </p>
         </section>
